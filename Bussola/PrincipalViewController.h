@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface PrincipalViewController : UIViewController
+@interface PrincipalViewController : UIViewController <CLLocationManagerDelegate>
 
+@property (nonatomic, weak) IBOutlet UIImageView *agulha;
 @end

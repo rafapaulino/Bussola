@@ -20,6 +20,8 @@
 		6A1634BB16076A4D0012DC9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A16349C16076A4C0012DC9A /* Foundation.framework */; };
 		6A1634C316076A4D0012DC9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1634C116076A4D0012DC9A /* InfoPlist.strings */; };
 		6A1634C616076A4D0012DC9A /* BussolaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1634C516076A4D0012DC9A /* BussolaTests.m */; };
+		6A1634D016076ACC0012DC9A /* agulha.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A1634CF16076ACC0012DC9A /* agulha.png */; };
+		6A1634D216076B150012DC9A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1634D116076B150012DC9A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		6A1634C216076A4D0012DC9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A1634C416076A4D0012DC9A /* BussolaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BussolaTests.h; sourceTree = "<group>"; };
 		6A1634C516076A4D0012DC9A /* BussolaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BussolaTests.m; sourceTree = "<group>"; };
+		6A1634CF16076ACC0012DC9A /* agulha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agulha.png; sourceTree = "<group>"; };
+		6A1634D116076B150012DC9A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A1634D216076B150012DC9A /* CoreLocation.framework in Frameworks */,
 				6A16349B16076A4C0012DC9A /* UIKit.framework in Frameworks */,
 				6A16349D16076A4C0012DC9A /* Foundation.framework in Frameworks */,
 				6A16349F16076A4C0012DC9A /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +86,7 @@
 		6A16348B16076A4C0012DC9A = {
 			isa = PBXGroup;
 			children = (
+				6A1634D116076B150012DC9A /* CoreLocation.framework */,
 				6A1634A016076A4C0012DC9A /* Bussola */,
 				6A1634BE16076A4D0012DC9A /* BussolaTests */,
 				6A16349916076A4C0012DC9A /* Frameworks */,
@@ -111,6 +117,7 @@
 		6A1634A016076A4C0012DC9A /* Bussola */ = {
 			isa = PBXGroup;
 			children = (
+				6A1634CF16076ACC0012DC9A /* agulha.png */,
 				6A1634A916076A4C0012DC9A /* PrincipalAppDelegate.h */,
 				6A1634AA16076A4C0012DC9A /* PrincipalAppDelegate.m */,
 				6A1634AC16076A4C0012DC9A /* MainStoryboard.storyboard */,
@@ -225,6 +232,7 @@
 			files = (
 				6A1634A516076A4C0012DC9A /* InfoPlist.strings in Resources */,
 				6A1634AE16076A4C0012DC9A /* MainStoryboard.storyboard in Resources */,
+				6A1634D016076ACC0012DC9A /* agulha.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
